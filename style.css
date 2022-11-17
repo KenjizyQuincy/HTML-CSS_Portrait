@@ -1,0 +1,30 @@
+
+.card{
+    height: 300px;
+    outline: rgb(0, 0, 0) double 1px;
+    outline-offset: -8px;
+    background-image: url(image1.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+    transition: all .5s linear;
+}
+
+.card h3{
+    width: 498px;
+    animation: typing 2s steps(22) alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+
+}
+
+.card:hover{
+    outline-offset: -25px;
+}
+@keyframes typing {
+    from{width: 0;}
+}
